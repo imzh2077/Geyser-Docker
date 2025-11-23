@@ -1,5 +1,5 @@
 # 使用基于Alpine的Eclipse Temurin JDK 21镜像
-FROM eclipse-temurin:21-jdk-alpine
+FROM eclipse-temurin:21-jre-alpine
 
 # 安装必要的软件包（例如wget）
 RUN apk update && \
